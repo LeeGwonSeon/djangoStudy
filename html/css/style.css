@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 50px;
+}
+
+.outer {
+    background-color: orange;
+    border-style: dashed;
+}
+
+.inner {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: double;
+}
+
+.outer > p {
+    font-size: 30px;
+}
+
+#smaller {
+    color: green;
+}
+
+p + h2 {
+    color: blue;
+}
+
+ul li a {
+    color: violet;
+}
